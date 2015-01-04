@@ -18,25 +18,37 @@
     </ion-header-bar>
     <ion-content>
       <ion-list>
-        <ion-item nav-clear menu-close ng-click="login()">
-          Login
-        </ion-item>
-        <ion-item nav-clear menu-close href="#/app/myshop">
-          My Shops
+        
+        <ion-item class="item item-icon-left" nav-clear menu-close href="#/app/home">
+          <i class="icon ion-home"></i>Home
         </ion-item>
         
-        <ion-item nav-clear menu-close href="#/app/mycards">
-          My Cards
+        
+        <ion-item class="item item-icon-left" nav-clear menu-close ng-click="login()">
+          <i class="icon ion-email"></i>Login
+        </ion-item>
+        <ion-item class="item item-icon-left" nav-clear menu-close href="#/app/myshop">
+          <i class="icon ion-bag"></i>My Shops
         </ion-item>
         
-        <ion-item nav-clear menu-close href="#/app/playlists">
-          Playlists
+        <ion-item class="item item-icon-left" nav-clear menu-close href="#/app/mycards">
+          <i class="icon ion-grid"></i>My Cards
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/settings">
-          Settings
+        
+        <ion-item class="item item-icon-left" nav-clear menu-close href="#/app/playlists">
+          <i class="icon ion-email"></i>Playlists
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/logout">
-          Log out
+        <ion-item class="item item-icon-left" nav-clear menu-close href="#/app/settings">
+          <i class="icon ion-settings"></i>Settings
+        </ion-item>
+        
+        <ion-item class="item item-icon-left" nav-clear menu-close href="#/app/help">
+          <i class="icon ion-help-circled"></i>Help
+        </ion-item>
+        
+        
+        <ion-item class="item item-icon-left" nav-clear menu-close href="#/app/logout">
+          <i class="icon ion-minus-round"></i>Log out
         </ion-item>
         
       </ion-list>

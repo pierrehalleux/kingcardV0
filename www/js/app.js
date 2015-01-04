@@ -48,6 +48,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
   
+  
+  .state('app.home', {
+    url: "/home",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/home.html"
+      }
+    }
+  })
+  
   .state('app.mycards', {
     url: "/mycards",
     views: {
@@ -62,6 +72,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     views: {
       'menuContent': {
         templateUrl: "templates/logout.html"
+      }
+    }
+  })
+  
+  .state('app.help', {
+    url: "/help",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/help.html"
       }
     }
   })
