@@ -48,6 +48,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
   
+  .state('app.mycards', {
+    url: "/mycards",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/mycards.html"
+      }
+    }
+  })
+  
   .state('app.logout', {
     url: "/logout",
     views: {
