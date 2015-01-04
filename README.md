@@ -1,2 +1,4 @@
-Hello from KingCard
-Readme file coming soon
+KingCard v0
+**************************************
+
+Testing the framework.
