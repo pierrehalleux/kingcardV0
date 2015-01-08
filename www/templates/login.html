@@ -1,15 +1,26 @@
 <ion-modal-view>
   <ion-header-bar>
-    <h1 class="title">Login</h1>
+    <h1 class="title">Hi!</h1>
     <div class="buttons">
       <button class="button button-clear" ng-click="closeLogin()">Close</button>
     </div>
   </ion-header-bar>
   <ion-content>
+    
+    <div class="item item-body">
+        <p>
+          Welcome on KingCard "<b>Your Favourite Loyality Program</b>". For each purchase will you get a unique code. Simply enter this code into your app to <b>get your points</b>. Once you get enough points, you get <b>rewards</b> (free items, discount).</p>    
+        
+      </div>
+    </div>
+    
+    
     <form ng-submit="doLogin()">
       <div class="list">
+            <img class="full-image" src="img/kc-logo.png">
+      
         <label class="item item-input">
-          <span class="input-label">Username</span>
+          <span class="input-label">Email</span>
           <input type="text" ng-model="loginData.username">
         </label>
         <label class="item item-input">
@@ -17,9 +28,10 @@
           <input type="password" ng-model="loginData.password">
         </label>
         <label class="item">
-          <button class="button button-block button-positive" type="submit">Log in</button>
+          <button ng-click="closeLogin()" class="button button-block button-positive" type="submit">Connect</button>
         </label>
       </div>
+    
     </form>
   </ion-content>
 </ion-modal-view>
