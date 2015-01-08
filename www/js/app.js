@@ -58,11 +58,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
   
-  .state('app.mycards', {
-    url: "/mycards",
+  .state('app.rewards', {
+    url: "/rewards",
     views: {
       'menuContent': {
-        templateUrl: "templates/mycards.html"
+        templateUrl: "templates/rewards.html"
       }
     }
   })
