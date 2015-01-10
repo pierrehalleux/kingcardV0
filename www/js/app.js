@@ -95,6 +95,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
+.state('app.enter_points', {
+  url: "/enter_points",
+  views: {
+    'menuContent': {
+      templateUrl: "templates/enter_points.html",
+      controller: 'PlaylistsCtrl'
+    }
+  }
+})
+
   .state('app.single', {
     url: "/playlists/:playlistId",
     views: {

@@ -6,36 +6,42 @@
 <ion-view  class="background" view-title="KingCard">
   <ion-content>
 
+
+
+ <div class="list card">
+ 
+    <div class="item item-body">
+  <a href="#/app/rewards" class="item item-icon-left">
+     <i class="icon ion-pricetags"></i>
+      <p> Each time you make purchase from one of the King Card partner shop, you get a ticket with unique code. Add your unique code in your app to accumulate points. Once you have enough points you can exchange it against points.</p>
+   </a>
+ </div>
+    </div>
+ 
+
 <div class="list card background">
 
 <div class="item item-body">
- <p class="point_home">35</p> <p class="point_label">points</p>   
+
+<div class="list">
+
+  <div class="item item-input-inset">
+    <label class="item-input-wrapper">
+      <input type="text" placeholder="Enter your unique code here">
+    </label>
+    <button class="button button-small">
+      Add points
+    </button>
+  </div>
+
+</div>
+
+
   </div>
 </div>
  
  
  
- <div class="list card">
- 
-    
-  <a href="#/app/rewards" class="item item-icon-left">
-     <i class="icon ion-pricetags"></i>
-      <p class="normal_text_small">You have enough point to get <p class="normal_text"> 2 free rewards right now.</p>
-   </a>
- 
-   <a href="#/app/myshop" class="item item-icon-left">
-     <i class="icon ion-bag"></i>
-     <p class="normal_text_small">You use KingCard in</p> <p class="normal_text">2 shops.</p>
-   </a>
- 
- </div>
- 
-  <div class="list card">
-<a href="#" class="item item-icon-left">
-   <i class="icon ion-person-stalker"></i>
-   <p class="normal_text_small">Be awesome</p> <p class="normal_text">Suggest King Card to some Friends!</p>
- </a>
-</div> 
  
   
   </ion-content>
@@ -60,14 +66,3 @@
   </div> -->
 </ion-modal-view>
 
-
-<ion-footer-bar class="bar-balanced">
-    
-
-
-
-<div class="button-bar">
-  <a href="#/app/enter_points" class="button icon-left ion-plus-circled button-balanced">Add points now</a>
-</div>
-
-     </ion-footer-bar>

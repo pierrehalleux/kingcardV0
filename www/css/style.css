@@ -13,17 +13,18 @@
 
 
 p.point_home {
-  font-size: 90px!important;
+  font-size: 120px!important;
   font-family: 'Open Sans Condensed', sans-serif; 
   text-align: center;
   color:black;
+  padding-top: 10px;
  }
 
 p.point_label {
   font-size: 25px!important;
   font-family: 'Open Sans Condensed', sans-serif; 
   text-align: center;
-  padding-top:10px;
+  padding-top:25px;
  }
 
 
@@ -34,15 +35,11 @@ p.normal_text_small {
 }
 
 p.normal_text {
-  font-size: 25px!important;
+  font-size: 30px!important;
   font-family: 'Open Sans Condensed', sans-serif; 
   color: black;
-}
-
-menu {
-  font-size: 25px!important;
-  font-family: 'Open Sans Condensed', sans-serif; 
-  color: black;
+    padding-bottom:15px;
+  
 }
 
 
@@ -59,4 +56,7 @@ h3 {
   
 }
 
+.background .item{
+    background-color: #f8f8f8;
+}
 
