@@ -105,6 +105,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   }
 })
 
+.state('app.register', {
+  url: "/login_new",
+  views: {
+    'menuContent': {
+      templateUrl: "templates/register.html",
+      controller: 'PlaylistsCtrl'
+    }
+  }
+})
+
+
   .state('app.single', {
     url: "/playlists/:playlistId",
     views: {
