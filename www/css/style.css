@@ -9,40 +9,40 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
-
-
-
 p.point_home {
-  font-size: 120px!important;
+  font-size: 70px!important;
   font-family: 'Open Sans Condensed', sans-serif; 
   text-align: center;
   color:black;
-  padding-top: 10px;
+  padding-top: 0px;
  }
 
 p.point_label {
-  font-size: 25px!important;
+  font-size: 20px!important;
   font-family: 'Open Sans Condensed', sans-serif; 
   text-align: center;
-  padding-top:25px;
+  padding-top:5px;
  }
 
 
 p.normal_text_small {
-  font-size: 18px!important;
+  font-size: 16px!important;
   font-family: 'Open Sans Condensed', sans-serif; 
   color: grey;
 }
 
 p.normal_text {
-  font-size: 30px!important;
+  font-size: 20px!important;
   font-family: 'Open Sans Condensed', sans-serif; 
   color: black;
-    padding-bottom:15px;
+  padding-bottom:10px;
   
 }
 
-
+p.bottom_bar {
+  font-size: 25px!important;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 
 h2 {
   font-size: 32px!important;
