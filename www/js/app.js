@@ -106,7 +106,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 })
 
 .state('app.register', {
-  url: "/login_new",
+  url: "/register",
   views: {
     'menuContent': {
       templateUrl: "templates/register.html",

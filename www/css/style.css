@@ -32,6 +32,23 @@ p.normal_text_small {
   color: grey;
 }
 
+/* My shop page */
+p.my_shop_text_small {
+  font-size: 16px!important;
+  font-family: 'Open Sans Condensed', sans-serif; 
+  color: grey;
+  padding-bottom: -25px;
+}
+
+p.my_shop_normal_text {
+  font-size: 20px!important;
+  font-family: 'Open Sans Condensed', sans-serif; 
+  color: black;
+  padding-bottom:0px;
+  
+}
+
+/* */
 
 p.normal_text_singup {
   font-size: 10px!important;
