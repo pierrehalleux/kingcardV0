@@ -68,14 +68,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
   
-  .state('app.rewards', {
+  /*.state('app.rewards', {
     url: "/rewards",
     views: {
       'menuContent': {
         templateUrl: "templates/rewards.html"
       }
     }
-  })
+  })*/
   
   .state('app.logout', {
     url: "/logout",
